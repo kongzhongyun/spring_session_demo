@@ -1,0 +1,16 @@
+server:
+  port: 8080
+spring:
+  redis:
+    host: 192.168.188.146
+    port: 6379
+    password: offcn123
+  session:
+    store-type: redis #session存储方式
+    timeout: 1800     #session过期时间 单位：秒
+
+  thymeleaf:
+    cache: false
+  messages:
+    encoding: UTF-8
+    basename: message_zh_CN
