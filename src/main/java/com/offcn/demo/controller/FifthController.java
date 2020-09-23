@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
 public class FifthController {
-    @GetMapping("fifth")
+    @GetMapping("five")
     public String indexPage(Model model){
         model.addAttribute("flag","yes");
         model.addAttribute("menu","admin");
